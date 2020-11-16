@@ -1,0 +1,710 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D3CECB;
+    border-radius: 5px;
+}
+
+.strona-glowna {
+    width: 100%;
+    height: 100vh;
+}
+
+.logo {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.logo-biale,
+.logo-szare {
+    position: absolute;
+    width: 100%;
+    top: 18%;
+    right: .3rem;
+    text-align: center;
+}
+
+.logo-biale {
+    font-size: 18rem;
+    z-index: 100;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+
+.logo-szare {
+    color: #DAB387;
+    font-size: 18rem;
+}
+
+.landing-page {
+    height: 100vh;
+    width: 60%;
+    position: relative;
+    background-image: url(../images/backgrounddark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.nd-title {
+    color: white;
+    position: absolute;
+    letter-spacing: .3rem;
+    font-size: 2.4rem;
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: 23.5rem;
+}
+
+.roller {
+    position: absolute;
+    bottom: 27%;
+    left: 50%;
+    transform: translate(-48%, -50%);
+}
+
+.arrow {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1rem;
+}
+
+.landing-page::before {
+    content: '';
+    background-color: white;
+    display: block;
+    position: absolute;
+    bottom: 20rem;
+    left: 0;
+    height: 2px;
+    width: 32rem;
+}
+
+.landing-page::after {
+    content: '';
+    background-color: white;
+    display: block;
+    position: absolute;
+    bottom: 20rem;
+    right: 0;
+    height: 2px;
+    width: 32rem;
+}
+
+.strona-glowna::after {
+    content: '';
+    background-color: #FFA987;
+    z-index: -1;
+    display: block;
+    position: absolute;
+    bottom: 20rem;
+    right: 0;
+    height: 2px;
+    width: 100%;
+}
+
+/*   NAVBAR   */
+
+header {
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.linki {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.linki a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+.about-animation {
+    padding: 6px 10px 6px 10px;
+    position: relative;
+    top: .8rem;
+}
+
+.animacja::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0px;
+    background-color: #FFA987;
+    transition: width 0.3s ease-out;
+}
+
+.animacja:hover::after {
+    width: 100%;
+}
+
+.services-animation {
+    padding: 6px 10px 6px 10px;
+    position: relative;
+    top: .8rem;
+}
+
+.contact-animation {
+    padding: 6px 10px 6px 10px;
+    position: relative;
+    top: .8rem;
+}
+
+.galery-animation {
+    padding: 6px 10px 6px 10px;
+    position: relative;
+    top: .8rem;
+}
+
+/*O MNIE */
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    width: 84.8%;
+    height: 32rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #A19F9C;
+    z-index: -1;
+    border-top: 2px solid#FFA987;
+    border-bottom: 2px solid#FFA987;
+}
+
+
+
+.o-mnie {
+    position: relative;
+    height: 100%;
+    width: 325px;
+    border-right: 2px solid #FFA987;
+}
+
+.o-mnie::before {
+    content: '';
+    top: 50%;
+    right: 0;
+    background-image: url(../images/polkole.svg);
+    position: absolute;
+    height: 50px;
+    width: 20px;
+    transform: translate(0, -50%);
+}
+
+.o-mnie p {
+    position: absolute;
+    font-family: 'Poiret One', cursive;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: white;
+    font-weight: 600;
+}
+
+.o-mnie-tekst {
+    position: relative;
+    color: white;
+    height: 100%;
+    width: 75rem;
+    font-size: 1.5rem;
+}
+
+.o-mnie-tekst pre {
+    margin-left: -5rem;
+    margin-top: 1rem;
+    font-weight: 300;
+}
+
+.ikony {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    height: 12.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.exp {
+    display: flex;
+    align-items: center;
+
+}
+
+.exp p {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #A19F9C;
+    margin-left: 10px;
+
+}
+
+.rynek {
+    display: flex;
+    align-items: center;
+
+}
+
+.rynek p {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #A19F9C;
+}
+
+.teren {
+    display: flex;
+    align-items: center;
+
+}
+
+.teren p {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    color: #A19F9C;
+}
+
+/* USLUGI */
+
+.uslugi1 {
+    width: 100%;
+    height: 18rem;
+}
+
+.uslugi {
+    position: relative;
+    margin-left: 326px;
+    width: 1295px;
+    height: 100%;
+    border-bottom: 2px solid #FFA987;
+    border-left: 2px solid #FFA987;
+}
+
+.uslugi p {
+    color: #FFA987;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: .3rem;
+    font-weight: 600;
+    position: absolute;
+    left: 45%;
+    top: 67%;
+}
+
+.uslugi::before {
+    content: '';
+    bottom: -5.2%;
+    right: 50%;
+    background-image: url(../images/polkole.svg);
+    position: absolute;
+    height: 50px;
+    width: 20px;
+    transform: rotate(90deg);
+}
+
+.uslugi-tekst1 {
+    width: 84.8%;
+    height: 23rem;
+    background-color: #A19F9C;
+}
+
+.uslugi-tekst::after {
+    content: '';
+    background-color: #FFA987;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 3px;
+    width: 41.6rem;
+}
+
+.uslugi-tekst {
+    position: relative;
+    margin-left: 326px;
+    width: 1295px;
+    height: 100%;
+}
+
+.uslugi-tekst p {
+    font-size: 1.43rem;
+    line-height: 1.8rem;
+}
+
+.tekst {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-right: 2px solid#FFA987;
+    color: white;
+}
+
+.jeden {
+    border-right: 2px solid #FFA987;
+    padding-right: 1.95rem;
+}
+
+.dwa {
+    border-right: 2px solid #FFA987;
+    padding-right: 2.1rem;
+}
+
+.trzy {
+    border-right: 2px solid #FFA987;
+    padding-right: 10rem;
+}
+
+.strzalka {
+    height: 16.7rem;
+    width: 100%;
+    position: relative;
+}
+
+.strzalka::before {
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 3px;
+    display: block;
+    background-color: #FFA987;
+    left: 50%;
+    z-index: 1;
+}
+
+.strzalka::after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    background-image: url(/images/trojkat.svg);
+    background-repeat: no-repeat;
+    left: 50.1%;
+    bottom: -1rem;
+    transform: translate(-50%, -50%);
+    width: 1.15rem;
+    height: 0.85rem;
+}
+
+/* KONTAKT */
+
+.contact {
+    position: relative;
+    margin-top: 2rem;
+    width: 100%;
+    height: 21.5rem;
+    margin-bottom: 30rem;
+}
+
+.linie {
+    position: absolute;
+    z-index: -1;
+    top: -27rem;
+    width: 100%;
+    height: 86rem;
+}
+
+.kontakt {
+    position: relative;
+    width: 40rem;
+    height: 8rem;
+    margin: auto;
+    border-bottom: 2px solid #FFA987;
+}
+
+.kontakt::before {
+    content: '';
+    bottom: -1.1rem;
+    right: 47.7%;
+    background-image: url(../images/polkole.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 3.2rem;
+    width: 1.9rem;
+    transform: rotate(90deg);
+}
+
+.kontakt p {
+    position: absolute;
+    height: 2rem;
+    width: 10rem;
+    font-size: 1.87rem;
+    text-transform: uppercase;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: .3rem;
+    font-weight: 600;
+    color: #FFA987;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.kontakt-tekst {
+    margin: auto;
+    background-color: #A19F9C;
+    height: 13.5rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid #FFA987;
+}
+
+.telefon {
+    display: flex;
+    align-items: center;
+    width: 16rem;
+    margin-left: -1rem;
+}
+
+.telefon p {
+    font-size: 2rem;
+    color: white;
+    margin-left: 1rem;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    width: 22rem;
+    margin-left: -1rem;
+}
+
+.email p {
+    font-size: 2rem;
+    color: white;
+    margin-left: 1rem;
+}
+
+
+/*-webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px; */
+
+/*FOOTER */
+
+footer {
+    width: 100%;
+    height: 10rem;
+    background-color: #D3CECB;
+    position: relative;
+}
+
+
+.strzala {
+    position: absolute;
+    height: 1rem;
+    right: 49.5%;
+    top: -.75rem;
+    z-index: 1;
+    transition: 0.2s ease-out;
+    animation: fadeup 2s infinite;
+}
+
+@keyframes fadeup {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-.7rem);
+    }
+}
+
+.kolo {
+    position: absolute;
+    right: 48.6%;
+    top: -2rem;
+    height: 2rem;
+}
+
+.odnosniki {
+    width: 100%;
+    height: 8rem;
+}
+
+.odnosniki a {
+    color: white;
+}
+
+.footer-tekst {
+    margin: auto;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.odnosniki a:nth-of-type(1) {
+    font-size: 1.87rem;
+    margin-left: -.8rem;
+    margin-top: 2rem;
+    position: relative;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: .3rem;
+    font-weight: 600;
+    color: #FFA987;
+    border-bottom: 2px solid white;
+}
+
+.odnosniki a:nth-of-type(2) {
+    font-size: 1.87rem;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: .3rem;
+    font-weight: 600;
+    color: #FFA987;
+    border-bottom: 2px solid white;
+}
+
+.odnosniki a:nth-of-type(1)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -.1rem;
+    height: 2px;
+    width: 0;
+    background-color: #A19F9C;
+    transition: width 0.3s ease-out;
+}
+
+.odnosniki a:nth-of-type(1):hover::after {
+    width: 100%;
+}
+
+.odnosniki a:nth-of-type(2)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -.1rem;
+    height: 2px;
+    width: 0;
+    background-color: #A19F9C;
+    transition: width 0.3s ease-out;
+}
+
+.odnosniki a:nth-of-type(2):hover::after {
+    width: 100%;
+}
+
+.copyright {
+    float: right;
+    margin-right: 1rem;
+}
+
+@media (max-width:640px){
+    .landing-page,
+    .logo,
+    .strona-glowna{
+        height: 400px;
+    }
+
+    .landing-page::before,
+    .landing-page::after,
+    .strona-glowna::after{
+        display: none;
+    }
+
+    .logo-biale,
+    .logo-szare{
+        font-size: 6rem;
+        top: 24%;
+        font-weight: 500;
+    }
+
+    .landing-page{
+        width: 70%;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .linki{
+        width:100%;
+    }
+
+    .linki a{
+        display: none;
+    }
+
+    .roller{
+        display: none;
+    }
+
+    .uslugi {
+        margin-left: 0px;
+        width: 800px ;
+    }
+
+    .uslugi-tekst {
+        margin-left: 0px;
+        width: 800px;
+    }
+
+    .o-mnie-tekst{
+        width: 640px;
+    }
+}

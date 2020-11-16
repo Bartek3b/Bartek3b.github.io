@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.466" height="60.698" viewBox="0 0 40.466 60.698">
+  <g id="telefon" transform="translate(-9 -1)">
+    <path id="Path_20" data-name="Path 20" d="M9,7.323V55.376A6.33,6.33,0,0,0,15.323,61.7h27.82a6.33,6.33,0,0,0,6.323-6.323V7.323A6.33,6.33,0,0,0,43.143,1H15.323A6.33,6.33,0,0,0,9,7.323Zm2.529,5.058H46.936V50.317H11.529ZM43.143,59.169H15.323a3.8,3.8,0,0,1-3.794-3.794V52.846H46.936v2.529A3.8,3.8,0,0,1,43.143,59.169ZM15.323,3.529h27.82a3.8,3.8,0,0,1,3.794,3.794V9.852H11.529V7.323A3.8,3.8,0,0,1,15.323,3.529Z" transform="translate(0)" fill="#ffa987"/>
+    <rect id="Rectangle_43" data-name="Rectangle 43" width="12.518" height="2.529" transform="translate(16.957 35.513) rotate(-45)" fill="#fff"/>
+    <rect id="Rectangle_44" data-name="Rectangle 44" width="25.037" height="2.529" transform="translate(22.016 41.835) rotate(-45)" fill="#fff"/>
+    <rect id="Rectangle_45" data-name="Rectangle 45" width="7.154" height="2.529" transform="translate(28.339 24.132) rotate(-45)" fill="#ffa987"/>
+  </g>
+</svg>

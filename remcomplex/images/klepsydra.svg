@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120.465" height="120.465" viewBox="0 0 120.465 120.465">
+  <g id="klepsydra" transform="translate(-1 -1)">
+    <path id="Path_14" data-name="Path 14" d="M61.232,1A60.014,60.014,0,0,0,40.282,4.744L42.028,9.45A55.429,55.429,0,1,1,26.1,18.673V36.136h5.019v-25.1H6.019v5.019H21.394A60.231,60.231,0,1,0,61.232,1Z" fill="#85817e"/>
+    <path id="Path_15" data-name="Path 15" d="M22.019,60.174H17v5.019H57.155V60.174H52.136V51.606L40.626,40.1,52.136,28.587V20.019h5.019V15H17v5.019h5.019v8.568L33.529,40.1,22.019,51.606Zm5.019-33.665v-6.49H47.116v6.49L37.077,36.548ZM37.077,43.646,47.116,53.684v6.49H27.039v-6.49Z" transform="translate(24.155 21.136)" fill="#ffa987"/>
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="5" height="4" transform="translate(47 97.465)" fill="#ffa987"/>
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="6" height="4" transform="translate(58 97.465)" fill="#85817e"/>
+    <rect id="Rectangle_30" data-name="Rectangle 30" width="5" height="4" transform="translate(72 97.465)" fill="#ffa987"/>
+  </g>
+</svg>
