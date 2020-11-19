@@ -677,8 +677,14 @@ footer {
         width: 100%;
     }
 
+    nav{
+        /* position: fixed; */
+        width: 100%;
+    }
+
     .linki{
         width:100%;
+        /* background-color: #FFA987; */
     }
 
     .roller{
@@ -693,29 +699,89 @@ footer {
         border-bottom:2px solid #FFA987;
     }
 
+    .o-mnie p{
+        font-size: 23px;
+        color: #FFA987;
+    }
+
     .about{
         width: 100%;
-        height: 20rem;
+        height: 29.5rem;
+        margin-bottom: 1rem;
     }
 
     .o-mnie::before{
-        right: 48%;
-        top: 62%;
-        transform: rotate(90deg);
+        left: 0%;
+        top: 25%;
+        transform: rotate(180deg);
     }
 
     .o-mnie-tekst{
+        height: 23.5rem;
         font-size: .95rem;
         margin-left: .92rem;
     }
+
+    /* IKONY */
+    .ikony{
+        height: 7rem;
+        justify-content: center;
+    }
+    .exp{
+        width: 15rem;
+    }
+    .exp img{
+        height: 5rem;
+    }
+
+    .exp p {
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: #A19F9C;
+        margin-left: 10px;
+    }
+    .rynek{
+        display: none;
+    }
+    .teren{
+        width: 15rem;
+        margin-left: 2rem;
+    }
+    .teren img{
+        height: 5rem;
+    }
+    .teren p{
+        font-size: 15px;
+
+    }
     /* USLUGI */
-    .uslugi {
+    .uslugi1 {
+        width: 100%;
+        height: 10rem;
+    }
+    .uslugi{
         margin-left: 0px;
-        width: 800px ;
+        width: 100%;
+    }
+
+    .uslugi p{     
+    font-size: 23px;   
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,0);
+    }
+
+    .uslugi::before{
+    bottom: -9.5%;
+    }
+
+    .uslugi-tekst1 {
+        width: 100%;
     }
 
     .uslugi-tekst {
         margin-left: 0px;
-        width: 800px;
+        width: 100%;
     }
 }
