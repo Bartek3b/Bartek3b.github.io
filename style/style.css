@@ -649,7 +649,7 @@ footer {
     margin-right: 1rem;
 }
 
-@media (min-width:640px) and (max-width:640px) {
+@media (max-width:640px) {
     .landing-page,
     .logo,
     .strona-glowna{
