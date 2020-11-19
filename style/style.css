@@ -391,6 +391,11 @@ li {
     padding-right: 1.95rem;
 }
 
+.dwa2{
+    border-right: 2px solid #FFA987;
+    padding-right: 2.1rem;
+}
+
 .dwa {
     border-right: 2px solid #FFA987;
     padding-right: 2.1rem;
@@ -471,8 +476,6 @@ li {
 
 .kontakt p {
     position: absolute;
-    height: 2rem;
-    width: 10rem;
     font-size: 1.87rem;
     text-transform: uppercase;
     font-family: 'Poiret One', cursive;
@@ -701,7 +704,6 @@ footer {
 
     .o-mnie p{
         font-size: 23px;
-        color: #FFA987;
     }
 
     .about{
@@ -784,4 +786,49 @@ footer {
         margin-left: 0px;
         width: 100%;
     }
+
+    .uslugi-tekst::after {
+        width: 50%;
+    }
+
+    .tekst p{
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .jeden{
+        padding-right:1.4rem ;
+    }
+
+    .jeden:nth-of-type(3){
+        border-right: none;
+    }
+
+    .dwa{
+        border-right: none;
+        border-left: 2px solid #FFA987;
+        padding-left: 2rem;
+    }
+
+    .dwa2{
+        border-left: 2px solid #FFA987;
+        padding-left: 2rem;
+    }
+
+    .trzy{
+        padding-right: 2.2rem;
+    }
+    /* KONTAKT */
+    .strzalka{
+        height: 10rem;
+    }
+
+    .kontakt{
+        height: 5rem;
+    }
+
+    .kontakt p {
+        font-size: 23px;
+    }
+    
 }
