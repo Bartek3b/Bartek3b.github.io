@@ -680,13 +680,22 @@ footer {
     }
 
     nav{
-        /* position: fixed; */
-        width: 100%;
+        width: 100%; 
     }
 
     .linki{
-        width:100%;
-        /* background-color: #FFA987; */
+        position: fixed;
+        z-index: 100;
+        width:70%;
+        background-color: #FFA987;
+        height: 4rem;
+    }
+
+    .about-animation,
+    .services-animation,
+    .contact-animation,
+    .galery-animation{
+        top: 50%;
     }
 
     .roller{
@@ -819,16 +828,18 @@ footer {
     }
     /* KONTAKT */
     .strzalka{
-        height: 10rem;
+        height: 8rem;
     }
 
-    .contact{
-        margin-top: 1px;
+    .contact {
+        margin-top: 0rem;
+        height: 19rem;
         margin-bottom: 0rem;
     }
-
+    
     .kontakt{
         height: 8rem;
+        width: 100%;
         border-bottom: none;
         margin-top: -1.6rem;
     }
@@ -863,6 +874,30 @@ footer {
         position: absolute;
         z-index: -1;
         width: 100%;
-        height: 55rem;
-    }    
+        height: 29rem;
+        right: 50%;
+        transform: translate(50%,0);
+        top:-9rem;
+    }
+    /* FOOTER */
+    .kolo {
+        transform: translate(50%,0%);
+        right: 50%;
+        top: -55%;
+        height: 1.5rem;
+    }
+
+    .strzala {
+        height: .9rem;
+        right: 48%;
+        top: -5%;
+    }
+
+    .odnosniki{
+        display: none;
+    }
+
+    footer {
+        height: 2rem;
+    }
 }
