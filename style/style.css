@@ -651,7 +651,7 @@ footer {
     margin-right: 1rem;
 }
 
-@media (max-width:425px){
+@media (max-width:519px){
     .landing-page,
     .logo,
     .strona-glowna{
@@ -691,15 +691,19 @@ footer {
     .linki{
         position: fixed;
         z-index: 100;
-        width:80%;
+        width:85%;
         background-color: #FFA987;
         height: 3.5rem;
         border-radius: 1px;
     }
 
+    .animacja:hover::after{
+        display: none;
+    }
+
     .linki a {
         font-size: 13px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
     
     .about-animation,
@@ -733,9 +737,7 @@ footer {
     }
 
     .o-mnie::before{
-        left: 48%;
-        top: -150%;
-        transform: rotate(90deg);
+        display: none;
     }
 
     .o-mnie-tekst{
@@ -777,7 +779,7 @@ footer {
     /* USLUGI */
     .uslugi1 {
         width: 100%;
-        height: 7rem;
+        height: 6rem;
     }
     .uslugi{
         margin-left: 0px;
@@ -785,14 +787,14 @@ footer {
     }
 
     .uslugi p{     
-    font-size: 15px;   
+    font-size: 20px;   
     left: 50%;
     top: 50%;
     transform: translate(-50%,0);
     }
 
     .uslugi::before{
-    bottom: -9.5%;
+    display: none;
     }
 
     .uslugi-tekst1 {
@@ -811,14 +813,14 @@ footer {
     .tekst p{
         font-size: 1rem;
         line-height: 1.8rem;
+        border-left: 2px solid #FFA987;
+        padding-left: 2rem;
     }
 
     .jeden{
-        padding-right:1.4rem ;
-    }
-
-    .jeden:nth-of-type(3){
+        padding-left:1.4rem ;
         border-right: none;
+        border-left: 2px solid #FFA987;
     }
 
     .dwa{
@@ -828,65 +830,70 @@ footer {
     }
 
     .dwa2{
-        border-left: 2px solid #FFA987;
-        padding-left: 2rem;
+        border-right:none;
     }
 
     .trzy{
-        padding-right: 2.2rem;
+        padding-right: 1rem;
+        border-right: none;
     }
     /* KONTAKT */
     .strzalka{
-        height: 8rem;
+        height: 6rem;
     }
 
     .contact {
         margin-top: 0rem;
-        height: 19rem;
+        height: 13rem;
         margin-bottom: 0rem;
     }
     
+    .kontakt::before{
+        display: none;
+    }
+    
     .kontakt{
-        height: 8rem;
+        height: 4rem;
         width: 100%;
         border-bottom: none;
-        margin-top: -1.6rem;
     }
 
     .kontakt p {
-        font-size: 23px;
+        font-size: 20px;
     }
     
     .kontakt-tekst {
         border-top: 2px solid #FFA987;
-        width: 50%;
-        height: 8.5rem;
+        width: 70%;
+        height: 6rem;
     }
 
     .telefon {
-        width: 12rem;
+        width: 10rem;
+    }
+
+    .telefon img{
+        height: 2rem;
     }
     
     .telefon p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .email {
-        width: 16rem;
+        width: 14rem;
     }
     
+    .email img{
+        height: 1.5rem;
+    }
+
     .email p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .linie {
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        height: 29rem;
-        right: 50%;
-        transform: translate(50%,0);
-        top:-9rem;
+        display: none;
     }
     /* FOOTER */
     .kolo {
@@ -897,13 +904,18 @@ footer {
     }
 
     .strzala {
-        height: .9rem;
-        right: 48%;
-        top: -5%;
+        height: .7rem;
+        right: 47%;
+        top: -8%;
     }
 
     .odnosniki{
         display: none;
+    }
+
+    .copyright{
+        font-size: .5rem;
+        margin-top: 1rem;
     }
 
     footer {
@@ -911,7 +923,7 @@ footer {
     }
 }
 
-@media (min-width:426px) and (max-width:639px) {
+@media (min-width:520px) and (max-width:768px) {
     .landing-page,
     .logo,
     .strona-glowna{
@@ -951,6 +963,10 @@ footer {
 
     nav{
         width: 100%; 
+    }
+
+    .animacja::after{
+        display: none;
     }
 
     .linki{
