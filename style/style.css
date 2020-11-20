@@ -651,11 +651,11 @@ footer {
     margin-right: 1rem;
 }
 
-@media (max-width:640px) {
+@media (max-width:425px){
     .landing-page,
     .logo,
     .strona-glowna{
-        height: 400px;
+        height: 55vh;
     }
 
     .landing-page::before,
@@ -666,9 +666,279 @@ footer {
 
     .logo-biale,
     .logo-szare{
+        font-size: 3.4rem;
+        top: 30%;
+        font-weight: 500;
+    }
+
+    .logo-biale {
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .landing-page{
+        width: 70%;
+    }
+    .nd-title {
+        letter-spacing: .25rem;
+        font-size: 2rem;
+        bottom: 40%;
+    }
+
+    nav{
+        width: 100%; 
+    }
+
+    .linki{
+        position: fixed;
+        z-index: 100;
+        width:80%;
+        background-color: #FFA987;
+        height: 3.5rem;
+        border-radius: 1px;
+    }
+
+    .linki a {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+    
+    .about-animation,
+    .services-animation,
+    .contact-animation,
+    .galery-animation{
+        top: 50%;
+    }
+
+    .roller {
+        bottom: 22%;
+        height: 2rem;
+    }
+    /* ABOUT */
+    .o-mnie{
+        height: 6%;
+        width: 100%;
+        border-right: none;
+        border-bottom:2px solid #FFA987;
+    }
+
+    .o-mnie p{
+        font-size: 15px;
+        letter-spacing: 4px;
+    }
+
+    .about{
+        width: 100%;
+        height: 48vh;
+        margin-bottom: 1rem;
+    }
+
+    .o-mnie::before{
+        left: 48%;
+        top: -150%;
+        transform: rotate(90deg);
+    }
+
+    .o-mnie-tekst{
+        height: 23.5rem;
+        font-size: .7rem;
+        margin-left: .92rem;
+    }
+
+    /* IKONY */
+    .ikony{
+        height: 5rem;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .exp{
+        width: 11rem;
+    }
+    .exp img{
+        height: 3rem;
+    }
+
+    .exp p {
+        font-size:10px;
+    }
+    .rynek{
+        display: none;
+    }
+    .teren{
+        width: 11rem;
+        margin-left: .1rem;
+    }
+    .teren img{
+        height: 3rem;
+    }
+    .teren p{
+        font-size: 10px;
+
+    }
+    /* USLUGI */
+    .uslugi1 {
+        width: 100%;
+        height: 7rem;
+    }
+    .uslugi{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .uslugi p{     
+    font-size: 15px;   
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,0);
+    }
+
+    .uslugi::before{
+    bottom: -9.5%;
+    }
+
+    .uslugi-tekst1 {
+        width: 100%;
+    }
+
+    .uslugi-tekst {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .uslugi-tekst::after {
+        width: 50%;
+    }
+
+    .tekst p{
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .jeden{
+        padding-right:1.4rem ;
+    }
+
+    .jeden:nth-of-type(3){
+        border-right: none;
+    }
+
+    .dwa{
+        border-right: none;
+        border-left: 2px solid #FFA987;
+        padding-left: 2rem;
+    }
+
+    .dwa2{
+        border-left: 2px solid #FFA987;
+        padding-left: 2rem;
+    }
+
+    .trzy{
+        padding-right: 2.2rem;
+    }
+    /* KONTAKT */
+    .strzalka{
+        height: 8rem;
+    }
+
+    .contact {
+        margin-top: 0rem;
+        height: 19rem;
+        margin-bottom: 0rem;
+    }
+    
+    .kontakt{
+        height: 8rem;
+        width: 100%;
+        border-bottom: none;
+        margin-top: -1.6rem;
+    }
+
+    .kontakt p {
+        font-size: 23px;
+    }
+    
+    .kontakt-tekst {
+        border-top: 2px solid #FFA987;
+        width: 50%;
+        height: 8.5rem;
+    }
+
+    .telefon {
+        width: 12rem;
+    }
+    
+    .telefon p {
+        font-size: 1.3rem;
+    }
+
+    .email {
+        width: 16rem;
+    }
+    
+    .email p {
+        font-size: 1.3rem;
+    }
+
+    .linie {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 29rem;
+        right: 50%;
+        transform: translate(50%,0);
+        top:-9rem;
+    }
+    /* FOOTER */
+    .kolo {
+        transform: translate(50%,0%);
+        right: 50%;
+        top: -55%;
+        height: 1.5rem;
+    }
+
+    .strzala {
+        height: .9rem;
+        right: 48%;
+        top: -5%;
+    }
+
+    .odnosniki{
+        display: none;
+    }
+
+    footer {
+        height: 2rem;
+    }
+}
+
+@media (min-width:426px) and (max-width:639px) {
+    .landing-page,
+    .logo,
+    .strona-glowna{
+        height: 60vh;
+    }
+
+    .landing-page::before,
+    .landing-page::after,
+    .strona-glowna::after{
+        display: none;
+    }
+
+    .nd-title {
+        letter-spacing: .30rem;
+        font-size: 2.3rem;
+        bottom: 35%;
+    }
+
+    .logo-biale,
+    .logo-szare{
         font-size: 6rem;
         top: 24%;
         font-weight: 500;
+    }
+
+    .logo-biale {
+        -webkit-text-stroke-width: 1px;
     }
 
     .landing-page{
@@ -686,11 +956,17 @@ footer {
     .linki{
         position: fixed;
         z-index: 100;
-        width:70%;
+        width:90%;
         background-color: #FFA987;
-        height: 4rem;
+        height: 4.2rem;
+        border-radius: 5px;
     }
 
+    .linki a {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    
     .about-animation,
     .services-animation,
     .contact-animation,
@@ -698,8 +974,14 @@ footer {
         top: 50%;
     }
 
-    .roller{
-        display: none;
+    .roller {
+        z-index: 200;
+        top: 0%;
+        left: 47.5%;
+        height:2rem;
+        transform: translate(-50%, 0%);
+        filter: brightness(100);
+
     }
 
     /* ABOUT */
