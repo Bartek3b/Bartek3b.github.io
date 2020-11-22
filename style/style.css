@@ -247,7 +247,7 @@ li {
 .o-mnie-tekst {
     color: white;
     height: 100%;
-    width: 80rem;
+    width: 75%;
     letter-spacing: 1px;
     font-size: 1.5rem;
     line-height: 2.5;
@@ -1197,5 +1197,507 @@ footer {
 
     footer {
         height: 2rem;
+    }
+}
+
+@media (min-width:1101px) and (max-width:1700px){
+    .landing-page,
+    .logo,
+    .strona-glowna{
+        height: 95vh;
+    }
+
+    .landing-page::before,
+    .landing-page::after
+    {
+        width: 33%;
+    }
+
+    .nd-title {
+        letter-spacing: .30rem;
+        font-size: 2.3rem;
+        bottom: 33.5%;
+    }
+
+    .logo-biale,
+    .logo-szare{
+        font-size: 11rem;
+        top: 24%;
+        font-weight: 500;
+    }
+
+    .logo-biale {
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .landing-page{
+        width: 70%;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .linki a {
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+
+    .roller {
+        bottom: 29%;
+        left: 50%;
+        height:3rem;
+        transform: translate(-50%, 0%);
+    }
+
+    /* ABOUT */
+    .o-mnie{
+        height: 100%;
+        width: 25%;
+    }
+
+    .o-mnie p{
+        font-size: 23px;
+        width: 60%;
+    }
+
+    .about{
+        width: 90%;
+        height: 25rem;
+        margin-bottom: 1rem;
+    }
+
+    .o-mnie::before{
+        right: 1;
+        top: 50%;
+    }
+
+    .o-mnie-tekst{
+        font-size: 1.1rem;
+        margin-left: .92rem;
+        width: 70%;
+    }
+
+    /* IKONY */
+    .ikony{
+        height: 7rem;
+    }
+    .exp,
+    .rynek,
+    .teren{
+        width: 20rem;
+    }
+    .exp img,
+    .rynek img,
+    .teren img{
+        height: 5rem;
+    }
+
+    .exp p,
+    .rynek p,
+    .teren p {
+        font-size: 18px;
+    }
+
+    /* USLUGI */
+    .uslugi1 {
+        width: 67.5%;
+        height: 15rem;
+        margin-left: 22.5%;
+    }
+    .uslugi{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .uslugi p{     
+    font-size: 28px;   
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%,0);
+    }
+
+    .uslugi::before{
+    bottom: -7.2%;
+    left: 38%;
+    }
+
+    .uslugi-tekst1 {
+        width: 90%;
+    }
+
+    .uslugi-tekst {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .uslugi-tekst::after {
+        width: 44.4%;
+    }
+
+    .tekst p{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+
+    .jeden{
+        padding-right:2rem ;
+    }
+
+    .dwa{
+        border-right: none;
+        border-left: 2px solid #FFA987;
+        padding-left: 2rem;
+    }
+
+    .dwa2{
+        border-left: 2px solid #FFA987;
+        padding-left: 2rem;
+    }
+
+    .trzy{
+        padding-right: 8rem;
+    }
+    /* KONTAKT */
+    .strzalka{
+        height: 12rem;
+    }
+
+    .contact {
+        margin-top: 0rem;
+        height: 35rem;
+        margin-bottom: 0rem;
+    }
+    
+    .kontakt{
+        height: 11rem;
+        width: 100%;
+        border-bottom: none;
+        margin-top: -1.6rem;
+    }
+
+    .kontakt p {
+        font-size: 28px;
+    }
+    .kontakt::before{
+    right: 49%;
+    }
+    
+    .kontakt-tekst {
+        border-top: 2px solid #FFA987;
+        width: 50%;
+        height: 8.5rem;
+        flex-direction: row;
+    }
+
+    .telefon {
+        width: 12rem;
+    }
+    
+    .telefon p {
+        font-size: 1.4rem;
+    }
+
+    .email {
+        width: 16rem;
+    }
+    
+    .email p {
+        font-size: 1.4rem;
+    }
+
+    .linie {
+        height: 70rem;
+        right: 50%;
+        transform: translate(50%,0);
+        top:-79%;
+    }
+    /* FOOTER */
+    .kolo {
+        transform: translate(50%,0%);
+        right: 50%;
+        top: -18%;
+        height: 1.5rem;
+    }
+
+    .strzala {
+        height: .9rem;
+        right: 49%;
+        top: -5%;
+    }
+
+    .odnosniki{
+        height: 6rem;
+    }
+
+    .odnosniki a:nth-of-type(1) {
+        font-size: 1.4rem;
+        margin-left: 0;
+        margin-top: 2rem;
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+
+    .odnosniki a:nth-of-type(2) {
+        font-size: 1.4rem;
+        margin-left: 0;
+        margin-top: 2rem;
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+
+    footer {
+        height: 8rem;
+    }
+}
+
+@media (min-width:769px) and (max-width:1100px){
+    .landing-page,
+    .logo,
+    .strona-glowna{
+        height: 95vh;
+    }
+
+    .landing-page::before,
+    .landing-page::after
+    {
+        width: 33%;
+    }
+
+    .nd-title {
+        letter-spacing: .30rem;
+        font-size: 2.3rem;
+        bottom: 33.5%;
+    }
+
+    .logo-biale,
+    .logo-szare{
+        font-size: 8rem;
+        top: 24%;
+        font-weight: 500;
+    }
+
+    .logo-biale {
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .landing-page{
+        width: 70%;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .linki a {
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+
+    .roller {
+        bottom: 29%;
+        left: 50%;
+        height:3rem;
+        transform: translate(-50%, 0%);
+    }
+
+    /* ABOUT */
+    .o-mnie{
+        height: 100%;
+        width: 25%;
+    }
+
+    .o-mnie p{
+        font-size: 23px;
+        width: 60%;
+    }
+
+    .about{
+        width: 90%;
+        height: 25rem;
+        margin-bottom: 1rem;
+    }
+
+    .o-mnie::before{
+        right: 1;
+        top: 50%;
+    }
+
+    .o-mnie-tekst{
+        font-size: 1.1rem;
+        margin-left: .92rem;
+        width: 70%;
+    }
+
+    /* IKONY */
+    .ikony{
+        height: 7rem;
+    }
+    .exp,
+    .rynek,
+    .teren{
+        width: 20rem;
+    }
+    .exp img,
+    .rynek img,
+    .teren img{
+        height: 5rem;
+    }
+
+    .exp p,
+    .rynek p,
+    .teren p {
+        font-size: 18px;
+    }
+
+    /* USLUGI */
+    .uslugi1 {
+        width: 67.5%;
+        height: 15rem;
+        margin-left: 22.5%;
+    }
+    .uslugi{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .uslugi p{     
+    font-size: 28px;   
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%,0);
+    }
+
+    .uslugi::before{
+    bottom: -7.2%;
+    left: 38%;
+    }
+
+    .uslugi-tekst1 {
+        width: 90%;
+    }
+
+    .uslugi-tekst {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .uslugi-tekst::after {
+        width: 44.4%;
+    }
+
+    .tekst p{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+
+    .jeden{
+        padding-right:2rem ;
+    }
+
+    .dwa{
+        border-right: none;
+        border-left: 2px solid #FFA987;
+        padding-left: 2rem;
+    }
+
+    .dwa2{
+        border-left: 2px solid #FFA987;
+        padding-left: 2rem;
+    }
+
+    .trzy{
+        padding-right: 8rem;
+    }
+    /* KONTAKT */
+    .strzalka{
+        height: 12rem;
+    }
+
+    .contact {
+        margin-top: 0rem;
+        height: 35rem;
+        margin-bottom: 0rem;
+    }
+    
+    .kontakt{
+        height: 11rem;
+        width: 100%;
+        border-bottom: none;
+        margin-top: -1.6rem;
+    }
+
+    .kontakt p {
+        font-size: 28px;
+    }
+    .kontakt::before{
+    right: 49%;
+    }
+    
+    .kontakt-tekst {
+        border-top: 2px solid #FFA987;
+        width: 50%;
+        height: 8.5rem;
+        flex-direction: column;
+    }
+
+    .telefon {
+        width: 12rem;
+    }
+    
+    .telefon p {
+        font-size: 1.4rem;
+    }
+
+    .email {
+        width: 16rem;
+    }
+    
+    .email p {
+        font-size: 1.4rem;
+    }
+
+    .linie {
+        height: 70rem;
+        right: 50%;
+        transform: translate(50%,0);
+        top:-79%;
+    }
+    /* FOOTER */
+    .kolo {
+        transform: translate(50%,0%);
+        right: 50%;
+        top: -18%;
+        height: 1.5rem;
+    }
+
+    .strzala {
+        height: .9rem;
+        right: 49%;
+        top: -5%;
+    }
+
+    .odnosniki{
+        height: 6rem;
+    }
+
+    .odnosniki a:nth-of-type(1) {
+        font-size: 1.4rem;
+        margin-left: 0;
+        margin-top: 2rem;
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+
+    .odnosniki a:nth-of-type(2) {
+        font-size: 1.4rem;
+        margin-left: 0;
+        margin-top: 2rem;
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+
+    footer {
+        height: 8rem;
     }
 }
