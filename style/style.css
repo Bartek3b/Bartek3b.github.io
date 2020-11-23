@@ -1461,7 +1461,7 @@ footer {
     .landing-page::before,
     .landing-page::after
     {
-        width: 33%;
+        display: none;
     }
 
     .nd-title {
