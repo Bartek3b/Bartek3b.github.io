@@ -7,7 +7,7 @@
 
 body{
     width: 100%;
-    height: 150vh;
+    height: 100vh;
     position: relative;
 }
     /* HEADER */
@@ -71,12 +71,153 @@ main{
     background-color:  #A19F9C;
 }
 
-.image-gallery{
-    position: absolute;
+.images-gallery{
     width: 100%;
-    height: 80%;
-    bottom: 0;
+    height: 100%;
+    margin-top: 5rem;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "img1 img2 img3 img4 img5"
+    "img1 img7 img8 img9 img10"
+    "img11 img12 img13 img14 img15"
+    "img16 img17 img18 img19 img20"
+    "img21 img22 img23 img24 img25"
+    "img26 img27 img28 img29 img30";
 }
+
+.images-gallery div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-1{
+    background-image: url(/images/1.jpg);
+    grid-area: img1;
+}
+
+.img-2{
+    background-image: url(/images/2.jpg);
+    grid-area: img2;
+}
+
+.img-3{
+    background-image: url(/images/3.jpg);
+    grid-area: img3;
+}
+.img-4{
+    background-image: url(/images/4.jpg);
+    grid-area: img4;
+}
+.img-5{
+    background-image: url(/images/5.jpg);
+    grid-area: img5;
+}
+.img-6{
+    background-image: url(/images/6.jpg);
+    grid-area: img6;
+}
+.img-7{
+    background-image: url(/images/7.jpg);
+    grid-area: img7;
+}
+.img-8{
+    background-image: url(/images/8.jpg);
+    grid-area: img8;
+}
+.img-9{
+    background-image: url(/images/9.jpg);
+    grid-area: img9;
+}
+.img-10{
+    background-image: url(/images/10.jpg);
+    grid-area: img10;
+}
+.img-11{
+    background-image: url(/images/11.jpg);
+    grid-area: img11;
+}
+.img-12{
+    background-image: url(/images/12.jpg);
+    grid-area: img12;
+}
+.img-13{
+    background-image: url(/images/13.jpg);
+    grid-area: img13;
+}
+.img-14{
+    background-image: url(/images/14.jpg);
+    grid-area: img14;
+}
+.img-15{
+    background-image: url(/images/15.jpg);
+    grid-area: img15;
+}
+.img-16{
+    background-image: url(/images/16.jpg);
+    grid-area: img16;
+}
+.img-17{
+    background-image: url(/images/17.jpg);
+    grid-area: img17;
+}
+.img-18{
+    background-image: url(/images/18.jpg);
+    grid-area: img18;
+}
+.img-19{
+    background-image: url(/images/19.jpg);
+    grid-area: img19;
+}
+.img-20{
+    background-image: url(/images/20.jpg);
+    grid-area: img20;
+}
+.img-21{
+    background-image: url(/images/21.jpg);
+    grid-area: img21;
+}
+.img-22{
+    background-image: url(/images/22.jpg);
+    grid-area: img22;
+}
+.img-23{
+    background-image: url(/images/23.jpg);
+    grid-area: img23;
+}
+.img-24{
+    background-image: url(/images/24.jpg);
+    grid-area: img24;
+}
+.img-25{
+    background-image: url(/images/25.jpg);
+    grid-area: img25;
+}
+.img-26{
+    background-image: url(/images/26.jpg);
+    grid-area: img26;
+}
+.img-27{
+    background-image: url(/images/27.jpg);
+    grid-area: img27;
+}
+.img-28{
+    background-image: url(/images/28.jpg);
+    grid-area: img28;
+}
+.img-29{
+    background-image: url(/images/29.jpg);
+    grid-area: img29;
+}
+.img-30{
+    background-image: url(/images/30.jpg);
+    grid-area: img30;
+}
+
+
 
 
 
