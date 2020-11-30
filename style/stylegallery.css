@@ -55,7 +55,7 @@ p::before{
 main{
     position: relative;
     width: 65%;
-    height: 99.1%;
+    height: 200vh;
     margin: auto;
     background-color: #A19F9C;
 }
@@ -67,31 +67,45 @@ main{
     padding-right:2rem ;
     transform: translate(50%);
     right: 50%;
-    top: 2%;
+    top: 1%;
     background-color:  #A19F9C;
 }
 
 .images-gallery{
-    width: 100%;
+    position: absolute;
+    width: 90%;
+    right: 50%;
+    transform: translate(50%,0);
     height: 100%;
-    margin-top: 5rem;
+    margin-top: 6rem;
     display: grid;
     grid-gap: 8px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
     "img1 img2 img3 img4 img5"
-    "img1 img7 img8 img9 img10"
-    "img11 img12 img13 img14 img15"
-    "img16 img17 img18 img19 img20"
+    "img1 img6 img7 img8 img8"
+    "img10 img11 img13 img14 img15"
+    "img16 img17 img18 img14 img20"
     "img21 img22 img23 img24 img25"
-    "img26 img27 img28 img29 img30";
+    "img26 img27 img28 img29 img30"
+    "img12 img19 img28 img31 img32"
+    "img34 img35 img9 . .";
 }
 
 .images-gallery div{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    cursor: pointer;
+}
+
+.zoomout{
+    transform:scale(6,6);
+    top: 50%;
+    right: 50%;
+    position: fixed;
+    z-index: 200;
 }
 
 .img-1{
@@ -102,11 +116,21 @@ main{
 .img-2{
     background-image: url(/images/2.jpg);
     grid-area: img2;
+    transition: background-position-y 1s ease-out;
+    background-position-y: 100%;
+}
+.img-2:hover{
+    background-position-y: 25%;
 }
 
 .img-3{
     background-image: url(/images/3.jpg);
     grid-area: img3;
+    transition: background-position-x 1s ease-out;
+    background-position-x: 100%;
+}
+.img-3:hover{
+    background-position-x: 70%;
 }
 .img-4{
     background-image: url(/images/4.jpg);
@@ -216,6 +240,27 @@ main{
     background-image: url(/images/30.jpg);
     grid-area: img30;
 }
+.img-31{
+    background-image: url(/images/44.jpg);
+    grid-area: img31;
+}
+.img-32{
+    background-image: url(/images/45.jpg);
+    grid-area: img32;
+}
+.img-33{
+    background-image: url(/images/46.jpg);
+    grid-area: img33;
+}
+.img-34{
+    background-image: url(/images/47.jpg);
+    grid-area: img34;
+}
+.img-35{
+    background-image: url(/images/48.jpg);
+    grid-area: img35;
+}
+
 
 
 
