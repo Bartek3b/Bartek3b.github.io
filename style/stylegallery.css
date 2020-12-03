@@ -71,7 +71,7 @@ main{
     background-color:  #A19F9C;
 }
 
-.images-gallery{
+section{
     position: absolute;
     width: 90%;
     right: 50%;
@@ -93,44 +93,25 @@ main{
     "img34 img35 img9 . .";
 }
 
-.images-gallery div{
+section div{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 
-.zoomout{
-    transform:scale(6,6);
-    top: 50%;
-    right: 50%;
-    position: fixed;
-    z-index: 200;
-}
-
 .img-1{
     background-image: url(/images/1.jpg);
     grid-area: img1;
-}
 
+}
 .img-2{
     background-image: url(/images/2.jpg);
     grid-area: img2;
-    transition: background-position-y 1s ease-out;
-    background-position-y: 100%;
 }
-.img-2:hover{
-    background-position-y: 25%;
-}
-
 .img-3{
     background-image: url(/images/3.jpg);
     grid-area: img3;
-    transition: background-position-x 1s ease-out;
-    background-position-x: 100%;
-}
-.img-3:hover{
-    background-position-x: 70%;
 }
 .img-4{
     background-image: url(/images/4.jpg);
@@ -259,6 +240,26 @@ main{
 .img-35{
     background-image: url(/images/48.jpg);
     grid-area: img35;
+}
+
+.img-window{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.img-window img{
+  max-height: 80vh;
+  max-width: 80vw;
+  z-index: 500;
 }
 
 
