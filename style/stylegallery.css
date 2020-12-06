@@ -370,7 +370,7 @@ footer{
         height: 280vh;
     }
     section{
-        height: 95%;
+        height: 92%;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
         "img1 img2 img3"
