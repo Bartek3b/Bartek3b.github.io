@@ -732,7 +732,7 @@ footer {
 
     .about{
         width: 100%;
-        height: 80vh;
+        height: 85vh;
         margin-bottom: 1rem;
     }
 
@@ -741,10 +741,9 @@ footer {
     }
 
     .o-mnie-tekst{
-        height: 70vh;
         font-size: 2.3vh;
-        margin-left: .92rem;
-        width: 100%;
+        margin-left: 2rem;
+        width: 90%;
     }
 
     /* IKONY */
@@ -1019,7 +1018,7 @@ footer {
 
     .about{
         width: 100%;
-        height: 29.5rem;
+        height: 85vh;
         margin-bottom: 1rem;
     }
 
@@ -1030,9 +1029,9 @@ footer {
     }
 
     .o-mnie-tekst{
-        height: 23.5rem;
-        font-size: .95rem;
-        margin-left: .92rem;
+        font-size:  2.2vh;
+        margin-left: 2.5rem;
+        width: 90%;
     }
 
     /* IKONY */
@@ -1172,7 +1171,6 @@ footer {
     .email p {
         font-size: 1.3rem;
     }
-
     .linie {
         position: absolute;
         z-index: -1;
@@ -1527,7 +1525,7 @@ footer {
 
     .o-mnie p{
         font-size: 23px;
-        width: 60%;
+        width: 80%;
     }
 
     .about{

@@ -349,7 +349,8 @@ footer{
     }
     .copyright{
         bottom: 0;
-        font-size: .8rem;
+        font-size: .5rem;
+        width: 100%;
     }
 }
 
