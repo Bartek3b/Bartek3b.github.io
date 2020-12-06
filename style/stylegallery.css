@@ -89,164 +89,164 @@ section div{
 }
 
 .img-1{
-    background-image: url(/images/1.jpg);
+    background-image: url(../images/1.jpg);
     grid-area: img1;
 
 }
 .img-2{
-    background-image: url(/images/2.jpg);
+    background-image: url(../images/2.jpg);
     grid-area: img2;
 }
 .img-3{
-    background-image: url(/images/3.jpg);
+    background-image: url(../images/3.png);
     grid-area: img3;
 }
 .img-4{
-    background-image: url(/images/4.jpg);
+    background-image: url(../images/4.jpg);
     grid-area: img4;
 }
 .img-5{
-    background-image: url(/images/5.jpg);
+    background-image: url(../images/5.jpg);
     grid-area: img5;
 }
 .img-6{
-    background-image: url(/images/6.jpg);
+    background-image: url(../images/6.jpg);
     grid-area: img6;
 }
 .img-7{
-    background-image: url(/images/7.jpg);
+    background-image: url(../images/7.jpg);
     grid-area: img7;
 }
 .img-8{
-    background-image: url(/images/8.jpg);
+    background-image: url(../images/8.jpg);
     grid-area: img8;
 }
 .img-9{
-    background-image: url(/images/9.jpg);
+    background-image: url(../images/9.jpg);
     grid-area: img9;
 }
 .img-10{
-    background-image: url(/images/10.jpg);
+    background-image: url(../images/39.jpg);
     grid-area: img10;
 }
 .img-11{
-    background-image: url(/images/11.jpg);
+    background-image: url(../images/41.jpg);
     grid-area: img11;
 }
 .img-12{
-    background-image: url(/images/12.jpg);
+    background-image: url(../images/12.jpg);
     grid-area: img12;
 }
 .img-13{
-    background-image: url(/images/13.jpg);
+    background-image: url(../images/13.jpg);
     grid-area: img13;
 }
 .img-14{
-    background-image: url(/images/14.jpg);
+    background-image: url(../images/14.jpg);
     grid-area: img14;
 }
 .img-15{
-    background-image: url(/images/15.jpg);
+    background-image: url(../images/15.jpg);
     grid-area: img15;
 }
 .img-16{
-    background-image: url(/images/16.jpg);
+    background-image: url(../images/16.jpg);
     grid-area: img16;
 }
 .img-17{
-    background-image: url(/images/17.jpg);
+    background-image: url(../images/17.jpg);
     grid-area: img17;
 }
 .img-18{
-    background-image: url(/images/18.jpg);
+    background-image: url(../images/18.jpg);
     grid-area: img18;
 }
 .img-19{
-    background-image: url(/images/19.jpg);
+    background-image: url(../images/19.jpg);
     grid-area: img19;
 }
 .img-20{
-    background-image: url(/images/20.jpg);
+    background-image: url(../images/20.jpg);
     grid-area: img20;
 }
 .img-21{
-    background-image: url(/images/21.jpg);
+    background-image: url(../images/21.jpg);
     grid-area: img21;
 }
 .img-22{
-    background-image: url(/images/22.jpg);
+    background-image: url(../images/22.jpg);
     grid-area: img22;
 }
 .img-23{
-    background-image: url(/images/23.jpg);
+    background-image: url(../images/23.jpg);
     grid-area: img23;
 }
 .img-24{
-    background-image: url(/images/24.jpg);
+    background-image: url(../images/24.jpg);
     grid-area: img24;
 }
 .img-25{
-    background-image: url(/images/25.jpg);
+    background-image: url(../images/25.jpg);
     grid-area: img25;
 }
 .img-26{
-    background-image: url(/images/26.jpg);
+    background-image: url(../images/26.jpg);
     grid-area: img26;
 }
 .img-27{
-    background-image: url(/images/27.jpg);
+    background-image: url(../images/27.jpg);
     grid-area: img27;
 }
 .img-28{
-    background-image: url(/images/28.jpg);
+    background-image: url(../images/28.jpg);
     grid-area: img28;
 }
 .img-29{
-    background-image: url(/images/29.jpg);
+    background-image: url(../images/29.jpg);
     grid-area: img29;
 }
 .img-30{
-    background-image: url(/images/30.jpg);
+    background-image: url(../images/30.jpg);
     grid-area: img30;
 }
 .img-31{
-    background-image: url(/images/44.jpg);
+    background-image: url(../images/44.jpg);
     grid-area: img31;
 }
 .img-32{
-    background-image: url(/images/45.jpg);
+    background-image: url(../images/45.jpg);
     grid-area: img32;
 }
 .img-33{
-    background-image: url(/images/46.jpg);
+    background-image: url(../images/46.jpg);
     grid-area: img33;
 }
 .img-34{
-    background-image: url(/images/47.jpg);
+    background-image: url(../images/47.jpg);
     grid-area: img34;
 }
 .img-35{
-    background-image: url(/images/48.jpg);
+    background-image: url(../images/48.jpg);
     grid-area: img35;
 }
 .img-36{
-    background-image: url(/images/31.jpg);
+    background-image: url(../images/31.jpg);
     grid-area: img36;
 }
 .img-37{
-    background-image: url(/images/32.jpg);
+    background-image: url(../images/32.jpg);
     grid-area: img37;
 }
 .img-38{
-    background-image: url(/images/33.jpg);
+    background-image: url(../images/33.jpg);
     grid-area: img38;
 }
 .img-39{
-    background-image: url(/images/34.jpg);
+    background-image: url(../images/34.jpg);
     grid-area: img39;
 }
 .img-40{
-    background-image: url(/images/35.jpg);
+    background-image: url(../images/35.jpg);
     grid-area: img40;
 }
 
