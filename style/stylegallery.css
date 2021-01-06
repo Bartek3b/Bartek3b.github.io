@@ -80,7 +80,9 @@ section{
     "img34 img35 img9 img36 img46"
     "img38 img35 img40 img22 img39"
     "img41 img41 img43 img44 img45"
-    "img37 img42 img11 img32 img45";
+    "img37 img42 img11 img32 img45"
+    "img47 img49 img48 img48 img51"
+    "img52 img49 img54 img50 img53";
 }
 
 section div{
@@ -275,6 +277,38 @@ section div{
     background-image: url(../images/54.jpg);
     grid-area: img46;
 }
+.img-47{
+    background-image: url(../images/55.jpg);
+    grid-area: img47;
+}
+.img-48{
+    background-image: url(../images/56.jpg);
+    grid-area: img48;
+}
+.img-49{
+    background-image: url(../images/57.jpg);
+    grid-area: img49;
+}
+.img-50{
+    background-image: url(../images/58.jpg);
+    grid-area: img50;
+}
+.img-51{
+    background-image: url(../images/59.jpg);
+    grid-area: img51;
+}
+.img-52{
+    background-image: url(../images/60.jpg);
+    grid-area: img52;
+}
+.img-53{
+    background-image: url(../images/61.jpg);
+    grid-area: img53;
+}
+.img-54{
+    background-image: url(../images/62.jpg);
+    grid-area: img54;
+}
 
 
 
@@ -369,7 +403,11 @@ footer{
         "img39 img40"
         "img41 img42"
         "img43 img44"
-        "img45 img46";
+        "img45 img46"
+        "img47 img48"
+        "img49 img50"
+        "img51 img52"
+        "img53 img54";
     }
     
     .odnosnik{
@@ -419,7 +457,10 @@ footer{
         "img39 img40 img37"
         "img23 img28 img29"
         "img41 img42 img43"
-        "img44 img45 img46";
+        "img44 img45 img46"
+        "img47 img49 img49"
+        "img50 img51 img52"
+        "img53 img54 img48";
     }
     footer{
         height: 8vh;
@@ -455,7 +496,9 @@ footer{
         "img36 img33 img41 img41" 
         "img40 img31 img37 img13"
         "img46 img42 img43 img45"
-        "img46 img38 img39 img45";
+        "img46 img38 img39 img45"
+        "img47 img48 img49 img50"
+        "img51 img52 img53 img54";
     }
     body{
         height: 250vh;
