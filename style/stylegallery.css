@@ -82,7 +82,8 @@ section{
     "img41 img41 img43 img44 img45"
     "img37 img42 img11 img32 img45"
     "img47 img49 img48 img48 img51"
-    "img52 img49 img54 img50 img53";
+    "img52 img49 img54 img50 img57"
+    "img55 img56 img53 img58 img57";
 }
 
 section div{
@@ -309,6 +310,23 @@ section div{
     background-image: url(../images/62.jpg);
     grid-area: img54;
 }
+.img-55{
+    background-image: url(../images/63.jpg);
+    grid-area: img55;
+}
+.img-56{
+    background-image: url(../images/64.jpg);
+    grid-area: img56;
+}
+.img-57{
+    background-image: url(../images/65.jpg);
+    grid-area: img57;
+}
+.img-58{
+    background-image: url(../images/66.jpg);
+    grid-area: img58;
+}
+
 
 
 
@@ -407,7 +425,9 @@ footer{
         "img47 img48"
         "img49 img50"
         "img51 img52"
-        "img53 img54";
+        "img53 img54"
+        "img55 img56"
+        "img57 img58";
     }
     
     .odnosnik{
@@ -458,9 +478,11 @@ footer{
         "img23 img28 img29"
         "img41 img42 img43"
         "img44 img45 img46"
-        "img47 img49 img49"
+        "img56 img49 img49"
         "img50 img51 img52"
-        "img53 img54 img48";
+        "img53 img54 img48"
+        "img55 img57 img47"
+        "img58 img57 img47";
     }
     footer{
         height: 8vh;
@@ -498,7 +520,8 @@ footer{
         "img46 img42 img43 img45"
         "img46 img38 img39 img45"
         "img47 img48 img49 img50"
-        "img51 img52 img53 img54";
+        "img51 img52 img53 img54"
+        "img55 img56 img57 img58";
     }
     body{
         height: 250vh;
